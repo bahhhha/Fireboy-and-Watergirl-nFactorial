@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    width: 40px;
+    height: 40px;
+    background: blueviolet;
+    position: absolute;
+    transition: 0.1;
+    transition-timing-function: linear;
+    z-index: 1;
+}
+
+.obstacle {
+    background: brown;
+    position: absolute;
+}
+
+.water {
+    background: blue;
+    position: absolute;
+}
+
+.fire {
+    background: red;
+    position: absolute;
+}
+
+.buttons {
+    background: gray;
+    position: absolute;
+}
+
+.gates {
+    background: black;
+    position: absolute;
+}
+
+.win {
+    background: green;
+    position: absolute;
+}
+
+.firep {
+    background: red;
+}
+
+.waterp {
+    background: blue;
+}
+
+#message {
+    font-size: 24px;
+}
+
+a {
+    cursor: pointer;
+}
